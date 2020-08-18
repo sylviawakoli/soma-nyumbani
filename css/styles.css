@@ -65,15 +65,19 @@
     min-height: 140px;
     align-content: center;
 }
-/* ami logo */
-.ami-logo {
+/* innodems logo */
+.innodems-logo {
     height: 60px;
 }
 /* ami logo */
+.ami-logo {
+  height: 60px;
+}
+/* sami logo */
 .sami-logo {
     height: 60px;
 }
-/* ami logo */
+/* idems logo */
 .idems-logo {
     height: 60px;
 }
