@@ -81,3 +81,17 @@
 .idems-logo {
     height: 60px;
 }
+
+
+/* Classes for pictures in team page */
+/* sam's picture */
+.sam-bio-pic {
+  max-height: 200px;
+}
+
+
+/* Classes for text in team page */
+/* person's name */
+.person-name {
+  font-size: 18px;
+}
