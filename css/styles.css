@@ -90,8 +90,52 @@
 }
 
 
+/* Classes for pictures in team page */
+/* kelvin's picture*/
+.kelvin-bio-pic {
+  max-height: 200px;
+}
+
+/* Classes for pictures in team page */
+/* ateamate's picture*/
+.ateamate-bio-pic {
+  max-height: 200px;
+}
+
+
+/* Classes for pictures in team page */
+/* jacob's picture*/
+.jacob-bio-pic {
+  max-height: 200px;
+}
+
+
+/* Create four equal columns that floats next to each other */
+.team-column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.team-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .team-column {
+    width: 100%;
+  }
+
+
 /* Classes for text in team page */
 /* person's name */
 .person-name {
   font-size: 18px;
 }
+
