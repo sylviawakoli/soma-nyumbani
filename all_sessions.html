@@ -1,0 +1,115 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Soma Nyumbani</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Soma Numbani - Learn Maths at Home">
+    <meta name="author" content="INNODEMS">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today's Sessions</a>
+        <a href="next_sessions.html">Next Sessions</a>
+        <a class="active" href="all_sessions.html">All Sessions</a>
+    </div>
+
+    <div class="site-title">
+        <a href="index.html"><img class="sm-logo" src="images/logo/SN_Logo.png"></a>
+    </div>
+
+    <div>
+        <p>Here are the historical sessions.</p>
+    </div>
+
+    <button class="accordion">Day 1</button>
+    <div class="panel">
+        <p>
+        <ul>
+            <li>Session 1: <a href="session_docs/day_01_sessions/session_guide_1.pdf">Counting Squares</a></li>
+            <li>Session 2: <a href="session_docs/day_01_sessions/session_guide_2.pdf">Mirroring Moves</a></li>
+            <li>Session 3: <a href="session_docs/day_01_sessions/session_guide_3.pdf">Understanding COVID-19
+                    Prevention</a></li>
+            <li>Session 4: <a href="session_docs/day_01_sessions/session_guide_4.pdf">Creative Writing</a></li>
+        </ul>
+        </p>
+    </div>
+
+    <button class="accordion">Day 2</button>
+    <div class="panel">
+        <p>
+        <ul>
+            <li>Session 1: <a href="session_docs/day_02_sessions/session_guide_1.pdf">Environmental News</a></li>
+            <li>Session 2: <a href="session_docs/day_02_sessions/session_guide_2.pdf">Collatz Conjecture</a></li>
+            <li>Session 3: <a href="session_docs/day_02_sessions/session_guide_3.pdf">Daily Planning</a></li>
+            <li>Session 4: <a href="session_docs/day_02_sessions/session_guide_4.pdf">Creative Word Use</a></li>
+        </ul>
+        </p>
+    </div>
+
+    <button class="accordion">Day 3</button>
+    <div class="panel">
+        <p>
+        <ul>
+            <li>Session 1: <a href="session_docs/day_03_sessions/session_guide_1.pdf">Drama and Life Skills</a></li>
+            <li>Session 2: <a href="session_docs/day_03_sessions/session_guide_2.pdf">Fitness Rountine</a></li>
+            <li>Session 3: <a href="session_docs/day_03_sessions/session_guide_3.pdf">Social Entrepreneurship
+                    News</a></li>
+            <li>Session 4: <a href="session_docs/day_03_sessions/session_guide_4.pdf">The 21 Game</a></li>
+        </ul>
+        </p>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+
+
+    <div class="org-logos">
+
+        <a href=" https://www.idems.international/" target="_blank">
+            <img class="innodems-logo" src="images/logos/innodems-logo-v2.png">
+        </a>
+
+        <a href="https://www.facebook.com/africanmathsinitiative.net/?epa=SEARCH_BOX" target="_blank">
+            <img class="ami-logo" src="images/logos/ami_cropped.jpg">
+        </a>
+
+        <a href="https://samicharity.co.uk/" target="_blank">
+            <img class="sami-logo" src="images/logos/sami_logo.png">
+        </a>
+
+        <a href=" https://www.idems.international/" target="_blank">
+            <img class="idems-logo" src="images/logos/new_idems_logo.png">
+        </a>
+
+    </div>
+</body>
+
+</html>
