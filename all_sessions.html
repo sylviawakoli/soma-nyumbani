@@ -82,26 +82,25 @@
             <li>Session 4: <a href="session_docs/day_04_sessions/session_4.pdf">Two Exemplary Figures</a></li>
             </ul>
             </p>
-        </div>
+    </div>
 
 
     <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", 
+    function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+    </script>
 
 
     <div class="org-logos">
