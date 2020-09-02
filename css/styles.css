@@ -185,6 +185,17 @@
   background-color: #ccc; 
 }
 
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
