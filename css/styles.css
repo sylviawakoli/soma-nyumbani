@@ -127,26 +127,34 @@
 /* sam's picture */
 
 .sam-bio-pic {
-  max-height: 200px;
+  max-height: 250px;
 }
 
 /* kelvin's picture*/
 
 .kelvin-bio-pic {
-  max-height: 200px;
+  max-height: 250px;
 }
 
 /* ateamate's picture*/
 
 .ateamate-bio-pic {
-  max-height: 200px;
+  max-height: 250px;
 }
 
 /* jacob's picture*/
 
 .jacob-bio-pic {
-  max-height: 200px;
+  max-height: 250px;
 }
+
+
+/* zach's picture*/
+
+.zach-bio-pic {
+  max-height: 250px;
+}
+
 
 /* Create four equal columns that floats next to each other */
 
@@ -223,4 +231,58 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+
+/* Four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(151, 74, 2, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #010239;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
 }
