@@ -1,3 +1,12 @@
+.body{
+background-color: #ccc;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 700;
+text-align: justify;
+margin: auto;
+width: 70%;
+}
+
 /* Navigation Menu Styles */
 
 /* Set the background color of the top navigation */
@@ -5,7 +14,11 @@
 .topnav {
   background-color: #010239;
   overflow: hidden;
-}
+  border-radius: 5%;
+  width: 70%;
+  float: right;
+  margin-top: 30px;
+    }
 
 /* Style the links inside the navigation bar */
 
@@ -37,14 +50,22 @@
 /* Style for the header title */
 
 .site-title {
-  width: 100%;
+   
+  /*width: 100%;
   max-width: 800px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
   display: flex;
   flex-direction: column;
+  float: left;
+  width: 30%;
+  height: 30px;
+  }
+  
+  .separator {
+  height: 200px;
+  display: block;
 }
-
 /* Style for the logo on the header */
 
 .sm-logo {
@@ -68,7 +89,7 @@
   flex-wrap: wrap;
   min-height: 140px;
   align-content: center;
-}
+ }
 
 /* innodems logo */
 
